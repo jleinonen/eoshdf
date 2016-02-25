@@ -2,6 +2,20 @@
 
 This is a simple reader for HDF4, particularly NASA's EOS HDF4, files. It makes data access easy without the technicalities of the PyHDF library.
 
+## Requirements
+
+You need a Python interpreter and the [NumPy](http://www.numpy.org/) and [PyHDF](http://hdfeos.org/software/pyhdf.php) libraries.
+
+## Installation
+
+Create a directory, and use `git` to clone this repository into it:
+
+    git clone https://github.com/jleinonen/eoshdf.git
+    
+Install using the provided setup.py file:
+
+    python setup.py install
+
 ## Example
 
 Open a file (in this case, "example.hdf"):
