@@ -2,17 +2,18 @@
 
 import sys
 
-long_description = """A Python code for simple reading of HDF4 files, 
+long_description = """A Python code for simple reading of HDF4 files,
 specifically those created by the NASA EOS data systems.
 
 Requires NumPy and PyHDF.
 """
 
-def configuration(parent_package='',top_path=None):
+
+def configuration(parent_package='', top_path=None):
     from numpy.distutils.misc_util import Configuration
     config = Configuration('eoshdf', parent_package, top_path,
         version = '0.1.0',
-        author  = "Jussi Leinonen",
+        author = "Jussi Leinonen",
         author_email = "jsleinonen@gmail.com",
         description = "Simple reader for NASA EOS HDF4 files",
         license = "MIT",
